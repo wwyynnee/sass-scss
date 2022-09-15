@@ -1,0 +1,17 @@
+{
+  "name": "sass-scss",
+  "version": "1.0.0",
+  "description": "Using the Sass and Scss preprocessor",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.6",
+    "sass": "^1.54.9"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "sass --watch public/scss/styles.scss public/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
